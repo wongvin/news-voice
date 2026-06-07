@@ -13,7 +13,7 @@ export default function HomePage() {
       <h1 style={{ marginBottom: 20 }}>Welcome</h1>
 
       <p style={{ marginBottom: 30, fontSize: 18 }}>
-        Your personalized news dashboard for Health, Economy, and Retirement.
+        Your personalized news dashboard for Health and Economy.
       </p>
 
       <nav
@@ -64,20 +64,6 @@ export default function HomePage() {
           }}
         >
           Economy News
-        </Link>
-
-        <Link
-          href="/news/retirement"
-          style={{
-            padding: "12px 16px",
-            background: "#ea4335",
-            color: "white",
-            borderRadius: 8,
-            fontWeight: "bold",
-            textAlign: "center",
-          }}
-        >
-          Retirement News
         </Link>
       </nav>
     </div>

@@ -22,9 +22,6 @@ export default async function NewsPage() {
         <Link href="/news/economy" style={{ fontWeight: "bold" }}>
           Economy
         </Link>
-        <Link href="/news/retirement" style={{ fontWeight: "bold" }}>
-          Retirement
-        </Link>
       </nav>
 
       {/* News List */}
